@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;;
+    background-color: rgb(128, 0, 34);
+    color: white;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+} 
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 48px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: rgb(128, 0, 34);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    border-radius: 20px;
+    margin-right: 32px;
+    height: 480px
+}
+
+.paragrafofinal {
+    margin-bottom: 24px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ra {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 128px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgb(128, 0, 34);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(183, 46, 82);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(128, 0, 34);
+}
+
+footer {
+    background-color: rgb(128, 0, 34);
+    color: white;
+    padding: 16px 0;
+}
+
+hr {
+    margin-bottom: 24px;
+}
+
+.articles {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1280px;
+}
+
+#eletronicosgerais .articles article img {
+    height: 210px;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(128, 0, 34);
+}
+
+#eletronicosgerais {
+    background-color: rgb(223, 223, 223);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(128, 0, 34);
+}
+
+#eletronicosgerais .articles article p {
+    color: rgb(109, 109, 109);
+}
+
+#about {
+    padding: 40px 0;
+}
+
+.classeimg {
+    transition: 0.5s;
+}
+
+.classeimg:hover {
+    transform: scale(1.1);
+    color: rgb(128, 0, 34);
+    filter: saturate(200%)
+}
+
+.market-title:hover {
+    color: blue;
+}
+
+.store-front:hover {
+    filter: saturate(200%)
+}
+
+.button {
+    transition: 0.5s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
