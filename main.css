@@ -29,6 +29,17 @@ header nav li a {
     text-decoration: none;
 }
 
+header nav li a:hover {
+    background-color: white;
+    transform: scale(1.1);
+    color: rgb(128, 0, 34);
+    border-radius: 5px;
+}
+
+a {
+    transition: 0.5s;
+}
+
 header h1,
 section h2 {
     font-weight: normal;
@@ -214,6 +225,7 @@ a {
 
 .button {
     transition: 0.5s;
+    transition-duration: 0.5s;
 }
 
 .button:hover {
